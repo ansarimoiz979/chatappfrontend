@@ -2,6 +2,7 @@ import React from "react"
 import "./messenger.css"
 import Conversation from "../../component/conversation/conversation"
 import Message from "../../component/message/message"
+import OnlineUser from "../../component/onlineFriend/online"
 export default function Messenger(){
     return (<>
         <div className="messenger" >
@@ -29,7 +30,11 @@ export default function Messenger(){
             </div>
             </div>
             <div className="chatOnline">
-            <div className="chatOnlineWrapper">online</div>
+            <div className="chatOnlineWrapper">
+                <OnlineUser/>
+                <OnlineUser/>
+                <OnlineUser/>
+            </div>
             </div>    
         </div> 
     </>)
