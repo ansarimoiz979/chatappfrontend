@@ -24,7 +24,7 @@
 .chatMenuWrapper, .chatBoxWrapper, .chatOnlineWrapper
 {
     padding: 10px;
-    background-color: aqua;
+    background-color: whitesmoke;
     height: 100%;
 }
 
@@ -39,6 +39,7 @@
 {
     display : flex;
     flex-direction: column;
+    position: relative;
 }
 
 .chatBoxTop
@@ -75,4 +76,14 @@
     cursor: pointer;
     background-color: teal;
     color: white;
+}
+
+.noConversationText
+{
+    position: absolute;
+    top : 10%;
+    cursor: default;
+    font-size: 30px;
+    color : rgb(224, 220, 220);
+    align-items: center;
 }
