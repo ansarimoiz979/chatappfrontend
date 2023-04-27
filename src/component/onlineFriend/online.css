@@ -1,4 +1,4 @@
-.chatOnline {}
+/* .chatOnline {} */
 
 .chatOnlineFriend {
     display: flex;
@@ -29,4 +29,4 @@
     right: 2px;
 }
 
-.chatOnlineUser {}
+/* .chatOnlineUser {} */
