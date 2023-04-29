@@ -1,15 +1,12 @@
-.message
-{
+.message {
     display: flex;
     flex-direction: column;
     margin-top: 20px;
 }
 
-.messageTop
-{}
+.messageTop {}
 
-.messageImg
-{
+.messageImg {
     width: 32px;
     height: 32px;
     border-radius: 50%;
@@ -17,30 +14,25 @@
     margin-right: 20px;
 }
 
-.messageText
-{
+.messageText {
     padding: 10px;
     border-radius: 20px;
     background-color: #772bee;
     max-width: 400px;
-    color : white
-
+    color: white
 }
 
-.messageBottom
-{
+.messageBottom {
     font-size: 12px;
-    margin-top:0px ;
-    padding-top:0px ;
+    margin-top: 0px;
+    padding-top: 0px;
 }
 
-.message.Own
-{
+.message.Own {
     align-items: flex-end;
 }
 
-.message.Own .messageText
-{
+.message.Own .messageText {
     background-color: gray;
-    color : black
+    color: black
 }

@@ -1,4 +1,4 @@
-.chatOnline {}
+/* .chatOnline {} */
 
 .chatOnlineFriend {
     display: flex;
@@ -25,8 +25,8 @@
     border-radius: 50%;
     background-color: limegreen;
     position: absolute;
-    top : 2px;
+    top: 2px;
     right: 2px;
 }
 
-.chatOnlineUser {}
+/* .chatOnlineUser {} */

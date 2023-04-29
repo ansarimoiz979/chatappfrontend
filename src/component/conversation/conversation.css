@@ -1,16 +1,14 @@
-.conversation
-{
+.conversation {
     display: flex;
     align-items: center;
     padding: 10px;
 }
 
-.conversation:hover
-{
+.conversation:hover {
     background-color: rgb(231, 234, 196);
 }
-.conversationImg
-{
+
+.conversationImg {
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -18,7 +16,4 @@
     margin-right: 20px;
 }
 
-.conversationName
-{
-    
-}
+.conversationName {}
