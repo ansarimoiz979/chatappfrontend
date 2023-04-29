@@ -4,7 +4,7 @@ import Messenger from './screen/messanger/messenger';
 
 function App() {
   return (
-    <Messenger/>
+    <Messenger />
   );
 }
 
